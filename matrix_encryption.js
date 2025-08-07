@@ -113,7 +113,6 @@ const decrypt = (message) => {
             if (object[element] === value) {
                 return element;
             }
-            // this callback function is returning undefined
         })
     }
     for (i = 0; i < decryptedArray.length; i ++) {
